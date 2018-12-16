@@ -1,0 +1,444 @@
+<REAPER_PROJECT 0.1 "5.95/x64" 1537186970
+  RIPPLE 0
+  GROUPOVERRIDE 0 0 0
+  AUTOXFADE 1
+  ENVATTACH 0
+  POOLEDENVATTACH 0
+  MIXERUIFLAGS 11 48
+  PEAKGAIN 1
+  FEEDBACK 0
+  PANLAW 1
+  PROJOFFS -1 0 0
+  MAXPROJLEN 0 600
+  GRID 3199 8 0.0625 8 1 0 0 0
+  TIMEMODE 3 5 -1 30 0
+  VIDEO_CONFIG 0 0 256
+  PANMODE 3
+  CURSOR 0.84375
+  ZOOM 358.31808000000029 0 0
+  VZOOMEX 0
+  USE_REC_CFG 0
+  RECMODE 1
+  SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
+  LOOP 0
+  LOOPGRAN 0 4
+  RECORD_PATH "" ""
+  <RECORD_CFG
+    ZXZhdxgBAA==
+  >
+  <APPLYFX_CFG
+  >
+  RENDER_FILE ""
+  RENDER_PATTERN ""
+  RENDER_FMT 0 2 0
+  RENDER_1X 1
+  RENDER_RANGE 1 0 0 18 2000
+  RENDER_RESAMPLE 3 0 1
+  RENDER_ADDTOPROJ 0
+  RENDER_STEMS 0
+  RENDER_DITHER 0
+  TIMELOCKMODE 1
+  TEMPOENVLOCKMODE 1
+  ITEMMIX 0
+  DEFPITCHMODE 589824
+  TAKELANE 1
+  SAMPLERATE 44100 0 0
+  <RENDER_CFG
+  >
+  LOCK 1
+  <METRONOME 6 2
+    VOL 0.25 0.125
+    FREQ 800 1600 1
+    BEATLEN 4
+    SAMPLES "" ""
+    PATTERN 2863311530 2863311529
+  >
+  GLOBAL_AUTO -1
+  TEMPO 120 4 4
+  PLAYRATE 1 0 0.25 4
+  SELECTION 0 0
+  SELECTION2 0 0
+  MASTERAUTOMODE 0
+  MASTERTRACKHEIGHT 0 0
+  MASTERPEAKCOL 16576
+  MASTERMUTESOLO 4
+  MASTERTRACKVIEW 0 0.6667 0.5 0.5 0 0 0
+  MASTERHWOUT 0 0 1 0 0 0 0 -1
+  MASTER_NCH 2 2
+  MASTER_VOLUME 1 0 -1 -1 1
+  MASTER_FX 1
+  MASTER_SEL 0
+  <MASTERPLAYSPEEDENV
+    ACT 0 -1
+    VIS 0 1 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 0 -1 -1
+  >
+  <TEMPOENVEX
+    ACT 1 -1
+    VIS 1 0 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 1 -1 -1
+  >
+  MARKER 1 0.96875 =START 0 0 1 R
+  MARKER 2 2 =END 0 0 1 R
+  <PROJBAY
+  >
+  <TRACK {B31C413C-8BCF-430F-91C1-183B18550842}
+    NAME Crash
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 1 1
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {B31C413C-8BCF-430F-91C1-183B18550842}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS loser/waveShapingDstr ""
+        50.300000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      <JS_PINMAP
+        6AMAABwAAADoAwAAAgAAAAIAAAABAAAAAAAAAAAAAAAAAAAAHAAAAOgDAAACAAAAAgAAAAEAAAAAAAAAAAAAAAAAAAA=
+      >
+      FLOATPOS 89 52 505 305
+      FXID {8450A3BB-2592-4AC1-B65C-B4E9AFC4CDA0}
+      WAK 0
+      BYPASS 0 0 0
+      <VST "VST: ReaEQ (Cockos)" reaeq.dll 0 "" 1919247729
+        cWVlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAqAAAAAEAAAAAABAA
+        IQAAAAQAAAAEAAAAAQAAAMSgL2dDGpJAAAAAAAAA8D8AAAAAAAAAQAEIAAAAAQAAAAAAAAAAwHJAAAAAAAAA8D8AAAAAAAAAQAEIAAAAAQAAAAAAAAAAQI9AAAAAAAAA
+        8D8AAAAAAAAAQAEDAAAAAQAAAAAAAAAAiLNAAAAAAAAA8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AAAAAA8CAABhAQAA
+        AAAQAAAA
+      >
+      FLOAT 210 378 543 419
+      FXID {8A3260A3-C5AF-4057-A5A7-CAB6DB6BBEA4}
+      WAK 0
+    >
+  >
+  <TRACK {B186996D-AF54-4400-990A-31BCAFFE20AD}
+    NAME Noise
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {B186996D-AF54-4400-990A-31BCAFFE20AD}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <VOLENV3
+      ACT 1 -1
+      VIS 1 1 1
+      LANEHEIGHT 0 0
+      ARM 1
+      DEFSHAPE 0 -1 -1
+      PT 0 0 1
+      PT 1 0 5 1 0 0 -0.30401118
+      PT 1.00711657 1 5 1 0 0 -0.70093458
+      PT 2 0 0 0 1
+    >
+    <FXCHAIN
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS loser/WhiteNoise ""
+        -120.000000 0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      <JS_PINMAP
+        6AMAABwAAADoAwAAAgAAAAIAAAABAAAAAAAAAAAAAAAAAAAAHAAAAOgDAAACAAAAAgAAAAEAAAAAAAAAAAAAAAAAAAA=
+      >
+      FLOATPOS 89 52 505 133
+      FXID {199554B2-35EA-45F3-80C0-F550D0ECFB87}
+      WAK 0
+      BYPASS 0 0 0
+      <VST "VST: ReaDelay (Cockos)" readelay.dll 0 "" 1919247468
+        bGRlcu5e7f4CAAAAAQAAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAAAAAAAAAAAAeAAAAAEAAAAAABAA
+        AAAAAAAAAAACAAAALAAAAAIAAAABAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAnNEHMwAAgD/67Ws9AACAPwAAgD8AAIA/AAAAPwAAAAAAAIA/rMWnOQAAAACc0Qcz
+        AACAP/rtaz0AAIA/AACAPwAAgD8AAAA/
+        AAAQAAAA
+      >
+      WET 0.509834
+      FLOATPOS 89 52 523 389
+      FXID {66557940-D2DD-444E-9E58-644D9911552F}
+      WAK 0
+      BYPASS 0 0 0
+      <JS utility/volume ""
+        -6.000000 0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 89 52 505 133
+      FXID {7D69E9BC-8F72-49D4-80A8-67BF8E7B0AE7}
+      WAK 0
+    >
+  >
+  <TRACK {9F749811-C3D0-44F4-966D-FE819CB140FE}
+    NAME Envelope
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 1 1
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {9F749811-C3D0-44F4-966D-FE819CB140FE}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <VOLENV3
+      ACT 1 -1
+      VIS 1 1 1
+      LANEHEIGHT 0 0
+      ARM 1
+      DEFSHAPE 0 -1 -1
+      PT 0.98058128 0 1
+      PT 1 1 5 1 0 0 -0.49988913
+      PT 1.7184194 0 0 0 1
+    >
+    <FXCHAIN
+      WNDRECT 89 52 716 180
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS utility/volume ""
+        -6.000000 0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 0 0 0 0
+      FXID {9058937F-A8B7-4F89-A066-6AE468813369}
+      WAK 0
+    >
+  >
+  <TRACK {EB1B6529-F6F1-40D7-A943-0AE2CC9D658A}
+    NAME "Sqr 1"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 1
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {EB1B6529-F6F1-40D7-A943-0AE2CC9D658A}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 89 52 716 347
+      SHOW 0
+      LASTSEL 2
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS synthesis/tonegenerator ""
+        -12.000000 -120.000000 1427.000000 0.000000 0.000000 0.000000 0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      <JS_PINMAP
+        6AMAABwAAADoAwAAAgAAAAIAAAABAAAAAAAAAAAAAAAAAAAAHAAAAOgDAAACAAAAAgAAAAEAAAAAAAAAAAAAAAAAAAA=
+      >
+      FLOAT 994 264 505 241
+      FXID {82B85715-4308-4AB2-A4AC-F659174B8E02}
+      WAK 0
+      BYPASS 0 0 0
+      <JS loser/waveShapingDstr ""
+        93.900000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      <JS_PINMAP
+        6AMAABwAAADoAwAAAgAAAAIAAAABAAAAAAAAAAAAAAAAAAAAHAAAAOgDAAACAAAAAgAAAAEAAAAAAAAAAAAAAAAAAAA=
+      >
+      FLOATPOS 0 0 0 0
+      FXID {517198D9-D3F7-47C0-9089-AD4B43DEEDA2}
+      WAK 0
+      BYPASS 0 0 0
+      <JS Liteon/ringmodulator ""
+        1.000000 1.000000 57.090000 16.230000 18.800000 100.000000 0.000000 1.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      <JS_PINMAP
+        6AMAABwAAADoAwAAAgAAAAIAAAABAAAAAAAAAAAAAAAAAAAAHAAAAOgDAAACAAAAAgAAAAEAAAAAAAAAAAAAAAAAAAA=
+      >
+      FLOATPOS 89 52 505 300
+      FXID {F41035A7-E3BD-4EF9-BE64-46FD402243C9}
+      WAK 0
+    >
+  >
+  <TRACK {05EA199E-8012-451E-BE4C-F55D23696207}
+    NAME "Sqr 2"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 1
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {05EA199E-8012-451E-BE4C-F55D23696207}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 518 185 716 288
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS synthesis/tonegenerator ""
+        -12.000000 -120.000000 1046.000000 0.000000 0.000000 0.000000 0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      <JS_PINMAP
+        6AMAABwAAADoAwAAAgAAAAIAAAABAAAAAAAAAAAAAAAAAAAAHAAAAOgDAAACAAAAAgAAAAEAAAAAAAAAAAAAAAAAAAA=
+      >
+      FLOATPOS 89 52 505 241
+      FXID {21BE09E0-9EDD-4B5E-ABA4-AB00E3ED9B2C}
+      WAK 0
+      BYPASS 0 0 0
+      <JS loser/waveShapingDstr ""
+        96.300000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      <JS_PINMAP
+        6AMAABwAAADoAwAAAgAAAAIAAAABAAAAAAAAAAAAAAAAAAAAHAAAAOgDAAACAAAAAgAAAAEAAAAAAAAAAAAAAAAAAAA=
+      >
+      FLOATPOS 121 84 505 305
+      FXID {CBC7B9CB-FB6C-4BC8-A6F9-36F7B0520EC1}
+      WAK 0
+      BYPASS 0 0 0
+      <JS Liteon/ringmodulator ""
+        1.000000 1.000000 58.540000 8.540000 29.050000 100.000000 0.000000 1.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      <JS_PINMAP
+        6AMAABwAAADoAwAAAgAAAAIAAAABAAAAAAAAAAAAAAAAAAAAHAAAAOgDAAACAAAAAgAAAAEAAAAAAAAAAAAAAAAAAAA=
+      >
+      FLOATPOS 89 52 505 300
+      FXID {DAD39ABE-4397-4BD4-A3EA-E22325C61B1A}
+      WAK 0
+    >
+  >
+  <TRACK {46C02A89-FBFB-4EE1-A3F6-4F927EF209D4}
+    NAME "Sqr 3"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 2 -2
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {46C02A89-FBFB-4EE1-A3F6-4F927EF209D4}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 453 159 716 288
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS synthesis/tonegenerator ""
+        -12.000000 -120.000000 1483.000000 0.000000 0.000000 0.000000 0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      <JS_PINMAP
+        6AMAABwAAADoAwAAAgAAAAIAAAABAAAAAAAAAAAAAAAAAAAAHAAAAOgDAAACAAAAAgAAAAEAAAAAAAAAAAAAAAAAAAA=
+      >
+      FLOATPOS 89 52 505 241
+      FXID {26DE4BEF-5E64-4C4F-A775-E1310D83B36E}
+      WAK 0
+      BYPASS 0 0 0
+      <JS loser/waveShapingDstr ""
+        91.300000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      <JS_PINMAP
+        6AMAABwAAADoAwAAAgAAAAIAAAABAAAAAAAAAAAAAAAAAAAAHAAAAOgDAAACAAAAAgAAAAEAAAAAAAAAAAAAAAAAAAA=
+      >
+      FLOATPOS 121 84 505 305
+      FXID {B21D3093-B8AD-4388-A559-8F1E152E3096}
+      WAK 0
+      BYPASS 0 0 0
+      <JS Liteon/ringmodulator ""
+        1.000000 1.000000 58.940000 38.460000 15.380000 100.000000 0.000000 1.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      <JS_PINMAP
+        6AMAABwAAADoAwAAAgAAAAIAAAABAAAAAAAAAAAAAAAAAAAAHAAAAOgDAAACAAAAAgAAAAEAAAAAAAAAAAAAAAAAAAA=
+      >
+      FLOATPOS 89 52 505 300
+      FXID {2294CA35-0FFE-480B-8A88-1B5F5DA96154}
+      WAK 0
+    >
+  >
+  <EXTENSIONS
+    <SWSAUTOCOLOR
+      {00000000-0000-0000-0000-000000000000} 0 "" "" ""
+      {B31C413C-8BCF-430F-91C1-183B18550842} 0 "" "" ""
+      {EB1B6529-F6F1-40D7-A943-0AE2CC9D658A} 0 "" "" ""
+      {05EA199E-8012-451E-BE4C-F55D23696207} 0 "" "" ""
+      {46C02A89-FBFB-4EE1-A3F6-4F927EF209D4} 0 "" "" ""
+      {9F749811-C3D0-44F4-966D-FE819CB140FE} 0 "" "" ""
+      {B186996D-AF54-4400-990A-31BCAFFE20AD} 0 "" "" ""
+    >
+  >
+>

@@ -1,0 +1,706 @@
+<REAPER_PROJECT 0.1 "5.95/x64" 1537610879
+  RIPPLE 0
+  GROUPOVERRIDE 0 0 0
+  AUTOXFADE 1
+  ENVATTACH 1
+  POOLEDENVATTACH 0
+  MIXERUIFLAGS 11 48
+  PEAKGAIN 1
+  FEEDBACK 0
+  PANLAW 1
+  PROJOFFS 0 0 0
+  MAXPROJLEN 0 600
+  GRID 3199 8 0.5 8 1 0 0 0
+  TIMEMODE 1 5 -1 30 0
+  VIDEO_CONFIG 0 0 256
+  PANMODE 3
+  CURSOR 0
+  ZOOM 83.33333333333336 0 0
+  VZOOMEX 5
+  USE_REC_CFG 0
+  RECMODE 1
+  SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
+  LOOP 0
+  LOOPGRAN 0 4
+  RECORD_PATH "" ""
+  <RECORD_CFG
+  >
+  <APPLYFX_CFG
+  >
+  RENDER_FILE ""
+  RENDER_PATTERN ""
+  RENDER_FMT 0 2 0
+  RENDER_1X 1
+  RENDER_RANGE 1 0 0 18 2000
+  RENDER_RESAMPLE 3 0 1
+  RENDER_ADDTOPROJ 0
+  RENDER_STEMS 0
+  RENDER_DITHER 0
+  TIMELOCKMODE 1
+  TEMPOENVLOCKMODE 1
+  ITEMMIX 0
+  DEFPITCHMODE 589824
+  TAKELANE 1
+  SAMPLERATE 44100 0 0
+  <RENDER_CFG
+  >
+  LOCK 1
+  <METRONOME 6 2
+    VOL 0.25 0.125
+    FREQ 800 1600 1
+    BEATLEN 4
+    SAMPLES "" ""
+    PATTERN 2863311530 2863311529
+  >
+  GLOBAL_AUTO -1
+  TEMPO 172 4 4
+  PLAYRATE 1 0 0.25 4
+  SELECTION 5.5813953488372 0
+  SELECTION2 5.5813953488372 0
+  MASTERAUTOMODE 0
+  MASTERTRACKHEIGHT 0 0
+  MASTERPEAKCOL 16576
+  MASTERMUTESOLO 0
+  MASTERTRACKVIEW 0 0.6667 0.5 0.5 0 0 0
+  MASTERHWOUT 0 0 1 0 0 0 0 -1
+  MASTER_NCH 2 2
+  MASTER_VOLUME 1 0 -1 -1 1
+  MASTER_FX 1
+  MASTER_SEL 0
+  <MASTERPLAYSPEEDENV
+    ACT 0 -1
+    VIS 0 1 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 0 -1 -1
+  >
+  <TEMPOENVEX
+    ACT 1 -1
+    VIS 1 0 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 1 -1 -1
+  >
+  <PROJBAY
+  >
+  <TRACK {5E272A2A-4CD6-45D6-9C26-EC001ABCB67C}
+    NAME SY
+    PEAKCOL 0
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 1 1
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.648077 0.37037 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    MIDICTL -1 4
+    TRACKHEIGHT 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 4
+    FX 1
+    TRACKID {5E272A2A-4CD6-45D6-9C26-EC001ABCB67C}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 472 249 754 466
+      SHOW 0
+      LASTSEL 8
+      DOCKED 0
+      BYPASS 0 0 0
+      <VST "VST: ReaXcomp (Cockos)" reaxcomp.dll 0 "" 1919252579
+        Y3hlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAzAAAAAEAAAAAABAA
+        OAAAAAMAAACA1NZ6qLuIQIBzQIBnIOM/EnKuFoCBqD/Ao3A9CtcTQKwcWmQ73xNADwAAAJYAAAAMAAAAFwAAAOT9oF7R5rxAANVT2n+g2j+qRQN503ilP0BuowG8BRZA
+        hetRuB6FF0APAAAAlgAAAAUAAAAXAAAAAAAAAABw10AAAAAAAADwP0q2PLEdIYQ/Nk31ZP7RB0B3vp8aL90YQA8AAACWAAAABAAAABMAAAABAAAAAQAAAAAAAAAAAPA/
+        AAAAAAAAAAAAAAAA
+        AAAQAAAA
+      >
+      FLOATPOS 89 52 583 495
+      FXID {C407809D-2CBA-4CC3-995D-EA72C11ECDF0}
+      WAK 0
+      BYPASS 0 0 0
+      <JS loser/waveShapingDstr ""
+        54.700000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 89 52 505 305
+      FXID {1B53271D-C897-4949-8A66-41B840129284}
+      WAK 0
+      BYPASS 0 0 0
+      <VST "VST: ReaEQ (Cockos)" reaeq.dll 0 "" 1919247729
+        cWVlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAhwAAAAEAAAAAABAA
+        IQAAAAMAAAAIAAAAAQAAADxkWtjasYFA/21SHzzZD0AB16NwPQrrPwEGAAAAAQAAAPwwtZ2TPY9AAAAAAAAA8D8ArBxaZDvfPwEEAAAAAAAAAPkBKYfwx1RAAAAAAAAA
+        8D/AGi/dJAYEQAEBAAAAAQAAAAAAAAAAAPA/AAAAAA8CAABhAQAA
+        AAAQAAAA
+      >
+      FLOATPOS 89 52 543 419
+      FXID {9AC116B4-2EFB-4650-9231-8F029F959551}
+      <PARMENV 0 0 1 0.5
+        ACT 1 -1
+        VIS 1 1 1
+        LANEHEIGHT 0 0
+        ARM 1
+        DEFSHAPE 0 -1 -1
+        PT 0 0.38600001 0
+        PT 0.34883721 0.64 0 0 1
+        PT 0.69767442 0.235 0
+        PT 1.04651163 0.37 0
+        PT 1.39534884 0.185 2
+        PT 2.09302326 0.475 2
+        PT 2.79069767 0.38600001 0
+        PT 3.13953488 0.64 0 0 1
+        PT 3.48837209 0.235 0
+        PT 3.8372093 0.37 0
+        PT 4.18604651 0.185 2
+        PT 4.88372093 0.475 2
+        PT 5.58139535 0.125 2
+      >
+      <PARMENV 3 0 1 0.5
+        ACT 1 -1
+        VIS 1 1 1
+        LANEHEIGHT 0 0
+        ARM 1
+        DEFSHAPE 0 -1 -1
+        PT 0 0.47600001 0
+        PT 0.34883721 0.615 0 0 1
+        PT 1.04651163 0.28 2
+        PT 1.39534884 0.475 2
+        PT 1.74418605 0.24 2
+        PT 2.09302326 0.5 2
+        PT 2.79069767 0.47600001 0
+        PT 3.13953488 0.615 0 0 1
+        PT 3.8372093 0.28 2
+        PT 4.18604651 0.475 2
+        PT 4.53488372 0.24 2
+        PT 4.88372093 0.5 2
+        PT 5.58139535 0.14 0
+      >
+      WAK 0
+      BYPASS 0 0 0
+      <JS Liteon/waveshapermulti ""
+        0.000000 1.000000 70.800000 22.200000 -2.900000 0.000000 1.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 89 52 505 249
+      FXID {60B6D017-42AC-4E9D-A22B-B8360D4220A6}
+      WAK 0
+      BYPASS 0 0 0
+      <VST "VST: ReaXcomp (Cockos)" reaxcomp.dll 0 "" 1919252579
+        Y3hlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAABAEAAAEAAAAAABAA
+        OAAAAAQAAADAycFnIXdUQAAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAQAAAAAAAAAAADwAAAJYAAAAFAAAAEQAAAAD1UhDX0YFAAAAAAAAA8D9cDTozetXNPwCBlq5gGxhA
+        TDeJQWDlHEAPAAAAlgAAABgAAAAQAAAAAAAAAACIs0AAAAAAAADwP0DaIxKi6Ls/wDKLUGwFEUCe76fGSzcVQA8AAACWAAAABQAAABAAAAAAAAAAAHDXQAAAAAAAAPA/
+        MlF/DPz8vD8AJVryeFoOQC/dJAaBlR9ADwAAAJYAAAAFAAAAEAAAAAEAAAABAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAA=
+        AAAQAAAA
+      >
+      FLOATPOS 89 52 583 495
+      FXID {FCA20E04-A5D5-4CDF-AC2C-F66A4804AE0F}
+      WAK 0
+    >
+  >
+  <TRACK {36EBBC49-E4D3-4C18-9E31-F6841B3CA941}
+    NAME "Sqr RAW"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.648077 0.37037 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 1
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 4
+    FX 1
+    TRACKID {36EBBC49-E4D3-4C18-9E31-F6841B3CA941}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 0 0
+    <FXCHAIN
+      WNDRECT 846 56 716 279
+      SHOW 0
+      LASTSEL 6
+      DOCKED 0
+      BYPASS 0 0 0
+      <VST "VSTi: ReaSynth (Cockos)" reasynth.dll 0 "Sqr -6" 1919251321
+        eXNlcu9e7f4AAAAAAgAAAAEAAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAEAA=
+        776t3g3wrd6mm8Q7F7fROgAAgD8AAIA/AAAAAAAAgD/pZ4g9AAAAAAAAAD8AAIA/wcoBP1K4/j4AAAAA
+        AAAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {BF233245-346F-4569-83A1-358693409485}
+      WAK 0
+      BYPASS 0 0 0
+      <VST "VSTi: ReaSynth (Cockos)" reasynth.dll 0 "Sqr +6" 1919251321
+        eXNlcu9e7f4AAAAAAgAAAAAAAAAAAAAAAgAAAAAAAAA8AAAAAAAAAAAAEAA=
+        776t3g3wrd6mm8Q7F7fROgAAgD8AAIA/AAAAAAAAgD/pZ4g9AAAAAAAAAD8AAIA/wcoBP9ejAD8AAAAA
+        AAAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {3F004C9A-D59D-4B8A-928C-DAB2E23AE11F}
+      <PROGRAMENV 11 0
+        PARAMBASE 1
+        LFO 0
+        LFOWT 1 1
+        AUDIOCTL 0
+        AUDIOCTLWT 1 1
+        PLINK -1 0:-1 11 0
+      >
+      <PROGRAMENV 0 0
+        PARAMBASE 0
+        LFO 0
+        LFOWT 1 1
+        AUDIOCTL 0
+        AUDIOCTLWT 1 1
+        PLINK 1 0:-1 0 0
+      >
+      <PROGRAMENV 6 0
+        PARAMBASE 0
+        LFO 0
+        LFOWT 1 1
+        AUDIOCTL 0
+        AUDIOCTLWT 1 1
+        PLINK 1 0:-1 6 0
+      >
+      <PROGRAMENV 9 0
+        PARAMBASE 0
+        LFO 0
+        LFOWT 1 1
+        AUDIOCTL 0
+        AUDIOCTLWT 1 1
+        PLINK 1 0:-1 9 0
+      >
+      <PROGRAMENV 1 0
+        PARAMBASE 0
+        LFO 0
+        LFOWT 1 1
+        AUDIOCTL 0
+        AUDIOCTLWT 1 1
+        PLINK 1 0:-1 1 0
+      >
+      <PROGRAMENV 2 0
+        PARAMBASE 0
+        LFO 0
+        LFOWT 1 1
+        AUDIOCTL 0
+        AUDIOCTLWT 1 1
+        PLINK 1 0:-1 2 0
+      >
+      <PROGRAMENV 10 0
+        PARAMBASE 0
+        LFO 0
+        LFOWT 1 1
+        AUDIOCTL 0
+        AUDIOCTLWT 1 1
+        PLINK 1 0:-1 10 0
+      >
+      <PROGRAMENV 3 0
+        PARAMBASE 0
+        LFO 0
+        LFOWT 1 1
+        AUDIOCTL 0
+        AUDIOCTLWT 1 1
+        PLINK 1 0:-1 3 0
+      >
+      <PROGRAMENV 4 0
+        PARAMBASE 0
+        LFO 0
+        LFOWT 1 1
+        AUDIOCTL 0
+        AUDIOCTLWT 1 1
+        PLINK 1 0:-1 4 0
+      >
+      WAK 0
+      BYPASS 0 0 0
+      <JS utility/volume ""
+        -18.000000 0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 289 386 505 133
+      FXID {F6AF448E-BE4F-43F9-923E-DE96C97440A7}
+      WAK 0
+      BYPASS 0 0 0
+      <VST "VST: ReaEQ (Cockos)" reaeq.dll 0 "" 1919247729
+        cWVlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAZgAAAAEAAAAAABAA
+        IQAAAAIAAAAAAAAAAQAAAPypcoJVDVRAQpV3HjZLzz8AAAAAAAAAQAEIAAAAAQAAAACMwaos83FA518HUbms5j8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AAAAAA8C
+        AABhAQAA
+        AAAQAAAA
+      >
+      FLOATPOS 89 52 543 419
+      FXID {4C81090B-1C50-4C9B-93A7-74EEEE9D34B3}
+      WAK 0
+      BYPASS 1 0 0
+      <JS Liteon/waveshapermulti ""
+        0.000000 1.000000 70.800000 22.200000 0.000000 0.000000 1.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 89 52 505 249
+      FXID {9F5D0252-9A62-449A-BB46-9265CF8F9EB4}
+      WAK 0
+      BYPASS 1 0 0
+      <JS filters/dc_remove ""
+        - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 89 52 505 120
+      FXID {83C69887-471D-47C5-A350-F0D375D8AE57}
+      WAK 0
+      BYPASS 1 0 0
+      <JS sstillwell/ozzifier ""
+        4.000000 12.200000 10.000000 -18.000000 -12.000000 50.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 635 51 505 213
+      FXID {7C79ECC6-B53E-4C13-A663-88BBB587ADED}
+      WAK 0
+      BYPASS 1 0 0
+      <JS waveshapers/graphdist ""
+        1.000000 0.000000 -144.000000 32.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      <JS_SER
+        AAAgQilcDz3sUbg9uB4FPgrXIz72KFw+KVyPPgrXoz5cj8I+UrjePo/C9T64HgU/16MQP/YoHD+4HiU/4Xo0P1K4Pj8Urkc/j8JVP65HYT97FG4/AACAPwAAgD8AAIA/
+        AACAPwAAgD8AAIA/AACAPwAAgD8AAIA/AACAPwAAgD8AAIA/AACAPwAAgD8AAIA/AACAPwAAgD8AAIA/AACAPwAAgD/NzMy8zcxMvZqZmb3NzMy9AAAAvpqZGb4zMzO+
+        zcxMvmZmZr4AAIC+zcyMvpqZmb5mZqa+MzOzvgAAwL7NzMy+mpnZvmZm5r4zM/O+AAAAv2ZmBr/NzAy/MzMTv5qZGb8AACC/ZmYmv83MLL8zMzO/mpk5vwAAQL9mZka/
+        zcxMvzMzU7+amVm/AABgv2ZmZr/NzGy/MzNzv5qZeb8AAIC/
+      >
+      FLOATPOS 790 233 505 577
+      FXID {D7607888-193C-42F3-9830-641E26E09253}
+      WAK 0
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 2.7906976744186
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {C1CEC675-81F5-4B4D-97BF-D8989A9D8398}
+      IID 2913
+      NAME "SY PL Glitter untitled MIDI item"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {FA2EF042-2279-4D4E-862E-F6F02E19B6BF}
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        POOLEDEVTS {7D94D63A-F597-4756-BFB8-3A197804C596}
+        E 0 90 28 7f
+        E 0 90 1c 7f
+        E 7680 80 28 00
+        E 0 80 1c 00
+        E 0 b0 7b 00
+        GUID {19D00B75-E994-45CF-AFC5-973472CE6121}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 8891
+        VELLANE 64 72 0
+        VELLANE -1 72 0
+        CFGEDITVIEW 0 0.02426 62 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 277
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 0 1 1 1 0.125 95 0 1614 884 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 2.7906976744186
+      SNAPOFFS 0
+      LENGTH 2.7906976744186
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 1
+      IGUID {C53140E8-1B06-41D8-BD0C-5C271BC46E40}
+      IID 2901
+      NAME "SY PL Glitter untitled MIDI item"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {419354F4-24B0-47F9-AD51-FDAC2DAB87A9}
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        POOLEDEVTS {6FFEEC45-6D19-4E65-8E24-E95E7F3DB105}
+        E 0 90 34 7f
+        E 0 90 28 7f
+        E 0 90 1c 7f
+        E 7680 80 34 00
+        E 0 80 28 00
+        E 0 80 1c 00
+        E 0 b0 7b 00
+        GUID {E7949C79-A6C2-4464-B714-04809BF4E247}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 8884
+        VELLANE 64 72 0
+        VELLANE -1 72 0
+        CFGEDITVIEW -1629.107684 0.02426 62 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 277
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 0 1 1 1 0.125 95 0 1614 884 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
+      >
+    >
+  >
+  <TRACK {EB45B4C2-BF8A-4849-9756-FD05974AF5A5}
+    NAME "Band 1"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 0.44764226213685 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.648077 0.37037 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {EB45B4C2-BF8A-4849-9756-FD05974AF5A5}
+    PERF 0
+    AUXRECV 1 0 1 0 0 0 0 0 0 -1:U 4177951 -1 ''
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <VST "VST: ReaEQ (Cockos)" reaeq.dll 0 "" 1919247729
+        cWVlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAZgAAAAEAAAAAABAA
+        IQAAAAIAAAAHAAAAAQAAACQ4q96B9ltAAAAAAAAA8D8AqMZLN4n1PwEEAAAAAAAAABDu5/vxrFdAAAAAAAAA8D8AAAAAAAAQQAEBAAAAAQAAAAAAAAAAAPA/AAAAAA8C
+        AABhAQAA
+        AAAQAAAA
+      >
+      FLOATPOS 89 52 543 419
+      FXID {FF5671D1-9E3A-403B-8B55-2714B6CF7B25}
+      <PARMENV 0 0 1 0.5
+        ACT 1 -1
+        VIS 1 1 1
+        LANEHEIGHT 0 0
+        ARM 1
+        DEFSHAPE 0 -1 -1
+        PT 0 0.155 2
+        PT 0.34883721 0.75 2
+        PT 0.69767442 0.3 2
+        PT 1.04651163 0.58 2
+        PT 1.39534884 0.165 2
+        PT 1.91860465 0.645 2
+        PT 2.09302326 0.365 2
+        PT 2.20930233 0.535 2
+        PT 2.3255814 0.26 2
+        PT 2.44186047 0.59 2 0 1
+        PT 2.55813953 0.18636364 2
+        PT 2.6744186 0.505 2
+        PT 2.79069767 0.125 2
+        PT 2.79069767 0.155 2
+        PT 3.13953488 0.75 2
+        PT 3.48837209 0.3 2
+        PT 3.8372093 0.58 2
+        PT 4.18604651 0.165 2
+        PT 4.70930232 0.645 2
+        PT 4.88372093 0.365 2
+        PT 5 0.535 2
+        PT 5.11627907 0.26 2
+        PT 5.23255814 0.59 2 0 1
+        PT 5.3488372 0.18636364 2
+        PT 5.46511627 0.505 2
+        PT 5.58139534 0.125 2
+      >
+      WAK 0
+      BYPASS 0 0 0
+      <JS guitar/phaser ""
+        2.500000 1137.800000 6926.200000 -6.000000 0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 257 354 505 193
+      FXID {82EDB981-D104-4FC8-80AB-F5E66423C700}
+      <PARMENV 0 0 10 5
+        ACT 1 -1
+        VIS 1 1 1
+        LANEHEIGHT 0 0
+        ARM 1
+        DEFSHAPE 0 -1 -1
+        PT 0 2.5 2
+        PT 0.34883721 10 2
+        PT 0.69767442 2.5 2
+        PT 1.39534884 10 2
+        PT 2.09302326 2.5 2
+        PT 2.44186047 10 2
+        PT 2.79069767 2.5 0 0 1
+        PT 2.79069767 2.5 2
+        PT 3.13953488 10 2
+        PT 3.48837209 2.5 2
+        PT 4.18604651 10 2
+        PT 4.88372093 2.5 2
+        PT 5.23255814 10 2
+        PT 5.58139534 2.5 0 0 1
+      >
+      WAK 0
+      BYPASS 0 0 0
+      <JS filters/dc_remove ""
+        - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 0 0 0 0
+      FXID {3998A130-D838-4A81-92B7-063ED2DF4A09}
+      WAK 0
+    >
+  >
+  <TRACK {8B35290A-6DB5-4F1A-8E5B-9E6CDB1F196F}
+    NAME "Band 2"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.648077 0.37037 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {8B35290A-6DB5-4F1A-8E5B-9E6CDB1F196F}
+    PERF 0
+    AUXRECV 1 0 1 0 0 0 0 0 0 -1:U 4177951 -1 ''
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <VST "VST: ReaEQ (Cockos)" reaeq.dll 0 "" 1919247729
+        cWVlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAARQAAAAEAAAAAABAA
+        IQAAAAEAAAAHAAAAAQAAAGtYpRVEWl1AAAAAAAAA8D+ByHa+nxrrPwEBAAAAAQAAAAAAAAAAAPA/AAAAAA8CAABhAQAA
+        AAAQAAAA
+      >
+      FLOATPOS 89 52 543 419
+      FXID {53B05E10-2569-41F6-A6CB-15D6113DCB18}
+      <PARMENV 0 0 1 0.5
+        ACT 1 -1
+        VIS 1 1 1
+        LANEHEIGHT 0 0
+        ARM 1
+        DEFSHAPE 0 -1 -1
+        PT 0 0.16100001 2
+        PT 0.69767442 0.555 2
+        PT 1.22093023 0.2 2
+        PT 1.74418605 0.6324026 2
+        PT 2.09302326 0.185 2
+        PT 2.44186047 0.82 2 0 1
+        PT 2.61627907 0.33 2
+        PT 2.79069767 0.185 2
+        PT 2.79069767 0.16100001 2
+        PT 3.48837209 0.555 2
+        PT 4.0116279 0.2 2
+        PT 4.53488372 0.6324026 2
+        PT 4.88372093 0.185 2
+        PT 5.23255814 0.82 2 0 1
+        PT 5.40697674 0.33 2
+        PT 5.58139534 0.185 2
+      >
+      WAK 0
+      BYPASS 0 0 0
+      <JS sstillwell/ozzifier ""
+        2.000000 24.200000 7.000000 -6.000000 -6.000000 25.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 89 52 505 213
+      FXID {6B346D7E-68EF-4049-93D5-5C2CE67F3A85}
+      WAK 0
+    >
+  >
+  <TRACK {5EB96C7F-2C5A-4332-8E5C-72F3FF176209}
+    NAME "Band 3"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 2 -1
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.648077 0.37037 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {5EB96C7F-2C5A-4332-8E5C-72F3FF176209}
+    PERF 0
+    AUXRECV 1 0 1 0 0 0 0 0 0 -1:U 4177951 -1 ''
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <VST "VST: ReaEQ (Cockos)" reaeq.dll 0 "" 1919247729
+        cWVlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAARQAAAAEAAAAAABAA
+        IQAAAAEAAAAHAAAAAQAAABY4q96B9ltAAAAAAAAA8D8AqvHSTWLsPwEBAAAAAQAAAAAAAAAAAPA/AAAAAA8CAABhAQAA
+        AAAQAAAA
+      >
+      FLOATPOS 710 80 543 419
+      FXID {971012F4-CD06-48D9-B1FF-2E8EF9652078}
+      <PARMENV 0 0 1 0.5
+        ACT 1 -1
+        VIS 1 1 1
+        LANEHEIGHT 0 0
+        ARM 1
+        DEFSHAPE 0 -1 -1
+        PT 0 0.155 2 0 1
+        PT 0.1744186 0.61 2
+        PT 0.52325581 0.225 5 1 0 0 0.51037916
+        PT 1.22093023 0.64 2
+        PT 1.74418605 0.295 2
+        PT 2.26744186 0.715 2
+        PT 2.79069767 0 2
+        PT 2.79069767 0.155 2 0 1
+        PT 2.96511627 0.61 2
+        PT 3.31395349 0.225 5 1 0 0 0.51037916
+        PT 4.0116279 0.64 2
+        PT 4.53488372 0.295 2
+        PT 5.05813953 0.715 2
+        PT 5.58139534 0 2
+      >
+      WAK 0
+      BYPASS 0 0 0
+      <JS sstillwell/flangebaby ""
+        3.300000 0.130000 -0.320000 0.000000 0.500000 0.000000 0.250000 0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 89 52 505 257
+      FXID {1415E54A-92A4-4BA0-8309-FB1E1DC570FF}
+      WAK 0
+    >
+  >
+  <EXTENSIONS
+    <SWSAUTOCOLOR
+      {00000000-0000-0000-0000-000000000000} 0 "" "" ""
+      {5E272A2A-4CD6-45D6-9C26-EC001ABCB67C} 0 "" "" ""
+      {36EBBC49-E4D3-4C18-9E31-F6841B3CA941} 0 "" "" ""
+      {EB45B4C2-BF8A-4849-9756-FD05974AF5A5} 0 "" "" ""
+      {8B35290A-6DB5-4F1A-8E5B-9E6CDB1F196F} 0 "" "" ""
+      {5EB96C7F-2C5A-4332-8E5C-72F3FF176209} 0 "" "" ""
+    >
+  >
+>
